@@ -1,9 +1,264 @@
 body{
+	 
+	 background: url(../images/cork-wallet.png);
+}
+
+h1,{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+	font-size:30px;
+	color:#4aaaa5;
+}
+
+
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+	font-size:30px;
+	color:#4aaaa5;
+	padding-left: 10px;
+}
+
+h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+	font-size:30px;
+	color:#4aaaa5;
+	text-align: center;
+	line-height: 60px;
+}
+
+.col-xs-12.col-sm-6.col-lg-8 {
 	
-	background: url(../images/cork-wallet.png);
+	padding-left: 10px;
+	 margin-top: 35px;
+
+	
+}
+	
+.container-fluid{
+	 background: url(../images/footer_lodyas.png);
+}
+
+
+
+.col-xs-12.col-sm-6.col-lg-8 img{ 
+ box-shadow:7px 7px 7px black; 
+ margin-left:16px;
+ margin-top: -10px;
+
+
+}
+
+.col-xs-12.col-sm-6.col-lg-8 a{
+display:inline-block;
 
 }
 
 
-#main,#main2,#main3{
-   background: url(../images/footer_lodyas.png);
+
+.col-xs-12.col-sm-6.col-lg-4 {
+	background: url(../images/footer_lodyas.png);
+	text-align: center;
+	top:-2px;
+
+}
+
+.col-xs-12.col-sm-6.col-lg-4 a{
+	margin:8px;
+
+
+}
+
+.col-xs-12.col-sm-6.col-lg-4 img{
+	width:75px;
+}
+
+
+
+footer {
+	background-color: #666666;
+	margin-top: 15px;
+	height:50px;
+    width:100%;
+	border: 0px;
+	border-top: 3px;
+    border-style: solid;
+    border-color: #4aaaa4;
+   	color: #FFFFFF;
+   	font-size: 10px;
+   	text-align: center;
+   	padding-top: 15px;
+
+}
+
+#text{
+	 
+	 font-family: Georgia, Times, Times New Roman, serif;
+ 	 line-height: 1.5;
+ 	 font-weight:bold;
+ 	 font-size:14px;
+ 	 margin-top:25px;
+ 	 padding-left:15px;
+}
+
+
+
+	
+
+
+
+header {
+	background: #4aaaa5;
+	color: #FFFFFF;
+	width: 500px;
+	
+	padding-top: 24px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.title {
+	background: #FFFFFF;
+	background: url(../images/cork-wallet.png);
+	border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #777777;
+    border:none;
+    display: inline;
+}
+
+
+.btn.btn-default{
+	border: none;
+	outline: none;
+	color:grey;
+	font-size:14px;
+	background: url(../images/cork-wallet.png);
+	margin-left:10px;
+
+
+}
+
+a{
+	color:grey;
+	 font-size: 18px;
+    font-weight: bold;
+
+}
+
+#john{
+
+	background-color: white;
+	color:grey;
+	font-size:12px;
+	border:1px solid grey;
+	margin-top: -10px;
+	line-height:30px;
+	padding-left:10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	box-shadow:8px 8px 8px black;
+	margin-right:20px;
+	margin-left:5px;
+}
+
+#example{
+	background-color: white;
+	color:grey;
+	font-size:12px;
+	border:1px solid grey;
+	margin-top: -7px;
+	line-height:30px;
+	padding-left:10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	box-shadow:8px 8px 8px black;
+	margin-right:20px;
+	margin-left:5px;
+
+}
+
+#message{
+	height:300px;
+	
+	background-color: white;
+	color:grey;
+	font-size:12px;
+	border:1px solid grey;
+	margin-top: 5px;
+	line-height:30px;
+	padding-left:10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	box-shadow:8px 8px 8px black;
+	margin-left:5px;
+	margin-right:20px;
+	
+
+}
+
+#submit{
+	height:30px;
+	width:100px;
+	background-color: #4aaaa5;
+	color:white;
+	font-size:14px;
+	border:1px solid grey;
+	line-height:30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	margin-top: 30px;
+	box-shadow:8px 8px 8px black;
+	margin-left:5px;
+}
+
+h5{
+	position: relative;
+    top: -80px;
+    text-align: center;
+    width: 150px;
+    background-color: #4aaaa5;
+    color:white;
+    line-height: 50px;
+    height:50px;
+	width:250px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	font-size:24px;
+  	text-shadow:1px 1px  black;
+  	left:15px;
+}
+
+.box1 img{
+	width:250px;
+	height:250px;
+}
+
+.box1 a{
+	margin:10px;
+
+}
+
+
+#inner{
+	
+	 background: url(../images/cork-wallet.png); 
+	 margin-bottom:10px;
+}
+
+
+
+#connect{
+	border:1px #4aaaa5;
+	height:200px;
+	position:relative;
+	margin-top:30px;
+	background: url(../images/cork-wallet.png);
+	box-shadow:10px 10px 10px black;
+    text-align:center;
+    top:-10px;
+
+	}
+
+.navbar .navbar-default{
+	display: inline;
+}
+
