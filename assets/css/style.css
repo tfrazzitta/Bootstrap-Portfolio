@@ -1,6 +1,6 @@
 body{
 	 
-	 background: url(../images/cork-wallet.png);
+	 background: url(../images/footer_lodyas.png);
 }
 
 h1,{
@@ -8,6 +8,7 @@ h1,{
 	font-weight:bold;
 	font-size:30px;
 	color:#4aaaa5;
+
 }
 
 
@@ -44,8 +45,9 @@ h3{
 
 .col-xs-12.col-sm-6.col-lg-8 img{ 
  box-shadow:7px 7px 7px black; 
- margin-left:16px;
+ margin-left:25px;
  margin-top: -10px;
+
 
 
 }
@@ -60,7 +62,7 @@ display:inline-block;
 .col-xs-12.col-sm-6.col-lg-4 {
 	background: url(../images/footer_lodyas.png);
 	text-align: center;
-	top:-2px;
+	
 
 }
 
@@ -90,6 +92,7 @@ footer {
    	text-align: center;
    	padding-top: 15px;
 
+
 }
 
 #text{
@@ -109,13 +112,13 @@ footer {
 
 
 header {
-	background: #4aaaa5;
-	color: #FFFFFF;
-	width: 500px;
 	
+	color: #FFFFFF;
 	padding-top: 24px;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color:#4aaaa5;
+
 }
 
 .title {
@@ -209,6 +212,9 @@ a{
 	margin-top: 30px;
 	box-shadow:8px 8px 8px black;
 	margin-left:5px;
+	position:relative;
+	top:-10px;
+
 }
 
 h5{
@@ -224,12 +230,15 @@ h5{
   	font-family: 'Georgia', Times, Times New Roman, serif;
   	font-size:24px;
   	text-shadow:1px 1px  black;
-  	left:15px;
+  	left:25px;
 }
 
 .box1 img{
 	width:250px;
 	height:250px;
+
+
+
 }
 
 .box1 a{
@@ -237,11 +246,16 @@ h5{
 
 }
 
+.box1{
+	padding-left:50px;
+}
+
 
 #inner{
 	
 	 background: url(../images/cork-wallet.png); 
-	 margin-bottom:10px;
+	 margin-bottom:25px;
+	 margin-top:-25px;
 }
 
 
@@ -249,16 +263,35 @@ h5{
 #connect{
 	border:1px #4aaaa5;
 	height:200px;
-	position:relative;
 	margin-top:30px;
 	background: url(../images/cork-wallet.png);
 	box-shadow:10px 10px 10px black;
     text-align:center;
-    top:-10px;
+    margin-top:29px;
 
 	}
 
 .navbar .navbar-default{
 	display: inline;
+
 }
 
+ul{
+	display: -webkit-box;
+}
+
+
+
+#contact-info{
+	list-style:none;
+	margin-top:20px;
+	padding-left:40px;
+
+
+}
+#h1-wrap{
+padding-left:60px;
+left:-60px;
+background-color:#4aaaa5;
+
+}
